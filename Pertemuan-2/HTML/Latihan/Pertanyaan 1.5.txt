@@ -1,0 +1,9 @@
+1. Lakukanlah perubahan pada kode HTML sesuai keinginan anda,
+Pernakah terjadi error ketika ada kesalahan kode?
+==> Tidak ada error ketika dibuka (Tidak Menampilkan Laporan error, tidak meng-Catch)
+2. Cobalah ubah nilai meta refresh <meta HTTP-EQUIV="REFRESH"
+content="5; url=http://google.co.id"> apa yang terjadi?, maka jelaskan
+apa diantara kegunaan meta dokumen?
+==> Kegunaan meta dokumen adalah untuk memberikan perintah diawal atau selama proses, pada contoh diatas adalah memberikan perintah refresh selama 5 detik kemudian mengarahkan ke alamat google.co.id
+3. Jelaskan fungsi tag HTML pada Table: thead, tbody, tr, th serta td!
+==> Tag pembuka (<thead>) wajib ditulis, sedangkan tag penutup (</thead>) boleh diabaikan (tidak ditulis) apabila setelah element <thead> tersebut, diikuti langsung oleh element <tbody>
