@@ -1,14 +1,10 @@
 body {
-    width: 960px; /*set lebar body website*/
-    margin: 30px auto; /*set posisi body (auto; left; right; center)*/
+    width: 960px;
+    margin: 30px auto;
   }
-  main {
+main{
     display: flex;
-  }
-  .logo,
-  .navigasi,
-  .konten,
-  .sidebar,
+}
   .footer {
     margin-bottom: 5px;
     padding: 15px 0;
@@ -26,7 +22,7 @@ body {
     text-align: center;
   }
   .konten {
-    width: 70%;
+    width: 100%;
     background: #EFE4B0;
   }
   .sidebar {
