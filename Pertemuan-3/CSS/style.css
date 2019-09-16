@@ -1,0 +1,40 @@
+body {
+    width: 960px; /*set lebar body website*/
+    margin: 30px auto; /*set posisi body (auto; left; right; center)*/
+  }
+  main {
+    display: flex;
+  }
+  .logo,
+  .navigasi,
+  .konten,
+  .sidebar,
+  .footer {
+    margin-bottom: 5px;
+    padding: 15px 0;
+  }
+  .logo {
+    width: 100%;
+    height: auto;
+    background: #99D9EA;
+    text-align: center;
+  }
+  .navigasi {
+    width: 100%;
+    height: auto;
+    background: #99D9EA;
+    text-align: center;
+  }
+  .konten {
+    width: 70%;
+    background: #EFE4B0;
+  }
+  .sidebar {
+    width: 30%;
+    background: #FD7E00;
+  }
+  .footer {
+    width: 100%;
+    background: #C3C3C3;
+    text-align: center;
+  }
