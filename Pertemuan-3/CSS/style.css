@@ -1,6 +1,9 @@
 body {
     width: 960px;
     margin: 30px auto;
+    background-image: url(../bg1.png);
+    background-size: 100%;
+    background-attachment: fixed;
   }
 main{
     display: flex;
@@ -8,6 +11,9 @@ main{
   .footer {
     margin-bottom: 5px;
     padding: 15px 0;
+    width: 100%;
+    background: #C3C3C3;
+    text-align: center;
   }
   .logo {
     width: 100%;
@@ -15,7 +21,7 @@ main{
     background: #99D9EA;
     text-align: center;
   }
-  .navigasi {
+  .nav {
     width: 100%;
     height: auto;
     background: #99D9EA;
@@ -24,13 +30,4 @@ main{
   .konten {
     width: 100%;
     background: #EFE4B0;
-  }
-  .sidebar {
-    width: 30%;
-    background: #FD7E00;
-  }
-  .footer {
-    width: 100%;
-    background: #C3C3C3;
-    text-align: center;
   }
