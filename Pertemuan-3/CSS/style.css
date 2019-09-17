@@ -1,32 +1,23 @@
 body {
     width: 960px;
-    margin: 30px auto;
+    margin: 0px auto;
     background-image: url(../bg1.png);
     background-attachment: fixed;
   }
 main{
     display: flex;
 }
-  .footer {
+header{
+    display: flex;
+}
+.footer {
     margin-bottom: 5px;
     padding: 15px 0;
     width: 100%;
     background: #C3C3C3;
     text-align: center;
-  }
-  .logo {
-    width: 100%;
-    height: auto;
-    background: #99D9EA;
-    text-align: center;
-  }
-  .nav {
-    width: 100%;
-    height: auto;
-    background: #99D9EA;
-    text-align: center;
-  }
-  .konten {
+}
+.konten {
     width: 100%;
     background: #EFE4B0;
-  }
+}
