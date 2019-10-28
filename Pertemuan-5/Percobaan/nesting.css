@@ -1,0 +1,15 @@
+.tittle {
+  text-align: center;
+  padding: 60px;
+  font-family: sans;
+}
+.tittle border {
+  top: 4px solid black;
+  bottom: 4px solid black;
+}
+.tittle .slogan {
+  font-family: 18px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/*# sourceMappingURL=nesting.css.map */
