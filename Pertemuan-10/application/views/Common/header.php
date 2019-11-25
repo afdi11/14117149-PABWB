@@ -8,17 +8,17 @@
         <div id='header-wrapper'>
             <div class='widget Header'>
                 <h1>
-                    <a href='index.html' style='display: block'>Afdi Fauzul Bahar</a>
+                    <a href='<?php echo base_url() ?>' style='display: block'>Afdi Fauzul Bahar</a>
                 </h1>
                 <div class='description'><span>Personal Website</span></div>
             </div>
         </div>
         <div class='navsub'>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Portofolio</a></li>
-                <li><a href="#">Project</a></li>
+                <li><a href="<?php echo base_url() ?>">Home</a></li>
+                <li><a href="<?php echo base_url() ?>/contact">Contact</a></li>
+                <li><a href="<?php echo base_url() ?>/portofolio">Portofolio</a></li>
+                <li><a href="<?php echo base_url() ?>/project">Project</a></li>
                 </li>
             </ul>
         </div>
