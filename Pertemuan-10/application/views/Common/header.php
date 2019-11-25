@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="../CSS/common.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>/assets/common.css" >
         <title>Afdi Fauzul Bahar </title>
     </head>
     <body>
@@ -15,10 +15,10 @@
         </div>
         <div class='navsub'>
             <ul>
-                <li><a href="home.php">Home</a></li>
-                <li><a href="contact.php">Contact</a></li>
-                <li><a href="portofolio.php">Portofolio</a></li>
-                <li><a href="project.php">Project</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Portofolio</a></li>
+                <li><a href="#">Project</a></li>
                 </li>
             </ul>
         </div>

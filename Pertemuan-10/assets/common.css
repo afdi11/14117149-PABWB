@@ -1,0 +1,149 @@
+a {color: #285B9C;}
+a:link, a:visited {text-decoration:none;}
+a:hover {
+    text-decoration:underline; 
+    color: #0E8FEC;
+}
+a img {
+    border-width:0;
+}
+
+#header-wrapper {
+    background: #9E9E9E;   
+    margin: 0; 
+    padding: 5px 10px; 
+    height: auto;
+}
+
+.Header h1 {
+    color: #fff;
+    margin: 0;
+    font-size: 30px;
+}
+
+.Header h1 a {
+    color: #285B9C;
+    font-family:  arial, verdana, sans-serif;
+    text-decoration: none; 
+    text-shadow:0 1px 1px #0E2438; 
+    font-size: 30px;
+}
+
+.Header .description {
+    color: #DADADA; 
+    padding-bottom: 5px;
+    font-family: arial, verdana, sans-serif;
+    font-size: 15px; 
+    text-shadow: 0 1px 1px #5A5A5A;
+    font-weight: bold;
+}
+
+.navsub{
+    font:bold 11px Arial,Sans-Serif;
+}
+
+.navsub ul{
+    color:white;
+    margin:0px 0px;
+    padding:0px 0px;
+    background: #1C3A68; 
+    min-height: 30px; 
+    border-top:1px solid #0C2863;
+    border-bottom:1px solid #0C2863;
+    box-shadow:inset 0 1px 0 #355988;
+}
+
+.navsub li{
+    list-style:none;
+    margin:0px 0px;
+    padding:0px 0px;
+    display:inline-block;
+    position:relative;
+}
+
+.navsub li a{
+    display:block;
+    text-decoration:none;
+    color:#cfcfcf;
+    line-height:30px;
+    padding:0px 15px;
+    text-shadow: 0 1px 1px #000; 
+    font-weight: bold; 
+    font-size: 15px;
+}
+
+.navsub li a:hover,
+.navsub li:hover > a{
+    background-color: #244B87;
+    color:#fff;
+}
+
+body {
+    width: 960px;
+    margin: 0px auto;
+    background-image: url(http://localhost/14117149-PABWB/Pertemuan-10/assets/bg1.png);
+    background-attachment: fixed;
+}
+main{
+    display: flex;
+    background: rgb(220, 220, 220);
+}
+.konten {
+    width: 70%;
+    background:rgb(255, 255, 255,0.6);
+    padding: 5px 10px;
+}
+
+.konten header{
+    color: #0E8FEC;
+    text-transform: uppercase;
+    font-family: arial, verdana, sans-serif;
+    font-size: 15px; 
+    font-weight: bold;
+}
+
+.konten text{
+    color: #000000;
+}
+
+.sidebar{
+    width: 30%;
+    padding: 5px 10px;
+}
+
+.sidebar header{
+    color:white;
+    margin:0px 0px;
+    padding:0px 0px;
+    background: #1C3A68; 
+    text-align: center;
+    min-height: 30px; 
+    border-top:1px solid #0C2863;
+    border-bottom:1px solid #0C2863;
+    box-shadow:inset 0 1px 0 #355988;
+}
+
+#footer-wrapper {
+    background: #1b1b1b;
+    margin: 0;
+    padding: 5px 10px;
+    height: auto;
+}
+
+.Footer h3{
+    color:rgb(161, 161, 161);
+    font-family: arial, verdana, sans-serif;
+    font-size: 12px;
+    margin:0; 
+    text-shadow: 0 1px 1px #5A5A5A;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.Footer h3 a{
+    color: rgb(61, 61, 61);
+}
+
+.Footer a:hover{
+    color:#fff;
+}
